@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f3f4f6;
+            background-color: #ffe4e1;
             color: #333;
             margin: 0;
             padding: 0;
@@ -23,21 +23,32 @@
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             max-width: 400px;
+            position: relative;
         }
         .message h1 {
             font-size: 24px;
-            color: #2c3e50;
+            color: #ff69b4;
         }
         .message p {
             font-size: 18px;
             margin: 10px 0 0;
         }
+        .hearts {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 32px;
+            color: #ff1493;
+        }
     </style>
 </head>
 <body>
     <div class="message">
+        <div class="hearts">❤️❤️❤️</div>
         <h1>Adriana, todo va a estar bien</h1>
         <p>Tu examen, tu casa, tu familia y tu salud. Solo dale ánimo.</p>
+        <div class="hearts">❤️❤️❤️</div>
     </div>
 </body>
 </html>
